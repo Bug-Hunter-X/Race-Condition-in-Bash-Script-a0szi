@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in a simple bash script.  Two background processes write to files concurrently. This can lead to incomplete or corrupted file content. The solution showcases how to avoid this by using a locking mechanism to ensure that the processes complete in order.
